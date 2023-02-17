@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Carrito</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1 class="titte">Carro de compras</h1>
+            <aside class="maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51037.178944498664!2d-60.36443109491256!3d-36.91847981185407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9594442e3cfab897%3A0x646776de82b55084!2sCarrefour%20Market!5e0!3m2!1ses-419!2sar!4v1676640829119!5m2!1ses-419!2sar" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </aside>
+            <input type="text" id="producto" placeholder="Porfavor ingrese producto" style="width: 250px; border-radius: 10px;" >
+            <button id="btn-agregar1" class="btn btn-success">Comprar 1</button>
+            <button id="btn-agregar2" class="btn btn-success">Comprar 2</button>
+            <button id="btn-agregar3" class="btn btn-success">Comprar 3</button>
+            <button id="btn-eliminarListado" class="btn btn-danger">Eliminar lista</button>
+            <button id="btn-eliminarUltimo" class="btn btn-danger">Eliminar ultimo producto</button>
+            <div class="cantidadUser">
+                <input type="number" id="cantidad-user" class="cant-user">
+                <button id="btn-cantidadUser">Comprar</button>
+
+            </div>
+            <br>
+            <br>
+            <div class="listado-compras">
+                <ul id="listado" class="listado">
+
+                </ul>
+            </div>
+        
+    </div>
+
+    <script src="carritoDeCompras.js"></script>
+</body>
+</html>

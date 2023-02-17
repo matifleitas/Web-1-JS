@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(127, 240, 255);
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.cant-user {
+    width: 70px;
+    border: 3px solid black;
+    border-radius: 9px;
+}
+
+.btn {
+    border: 2.5px solid black;
+}
+
+.titte {
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 3px solid black;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(21, 0, 255, 0.534);
+}
+
+.mapita {
+    width: 100%;
+    /* display: flex; */
+}
+
+.maps {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.listado {
+    margin: 15px;
+    padding: 4px;
+}
