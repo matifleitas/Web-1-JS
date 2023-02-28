@@ -19,5 +19,4 @@ function mostrarUser() {
 function cambioColor() {
     let divTittle = document.querySelector("#formulario");
     divTittle.classList.add("div");
-
 }

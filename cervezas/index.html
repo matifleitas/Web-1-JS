@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Cervezas</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Tienda de Cervezas</h1>
+        <form action="">
+            <label for="">Ingrese su nombre, apellido y edad</label>
+            <input type="text" placeholder="Nombre" id="nombre_user">
+            <input type="text" placeholder="Apellido" id="apellido_user">
+            <input type="number" placeholder="Edad" id="edad_user">
+
+            <button type="button" id="registro">Registrarme</button>
+        </form>
+    </div>
+    <div class="articulos">
+
+        <div class="card" style="width: 12rem;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Helles_im_Glas-Helles_%28pale_beer%29.jpg/800px-Helles_im_Glas-Helles_%28pale_beer%29.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5>$750</h5>
+              <p class="card-text"> build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 12rem;">
+            <img src="http://d3ugyf2ht6aenh.cloudfront.net/stores/001/128/972/products/vaso-stout1-6e69ed76c03c5a5ffe16563494403303-640-0.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5>$700</h5>
+              <p class="card-text">Some quick example texp the bulk of the card's content.</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 12rem;">
+            <img src="https://cheverry.com.ar/wp-content/uploads/2020/07/809213908213uiwquiwqeuiwqeiuwq-11-9337f229c2335a6d0215281325729218-1024-1024.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5>$650</h5>
+              <p class="card-text">Some quicd make up the bulk of the card's content.</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 12rem; height: 20px;">
+            <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+            <div class="card-body">
+                <div>
+                    <h5 id="precio">$750</h5>
+                </div>
+              <p class="card-text">d make up the bulk of the card's content.</p>
+            </div>
+          </div>
+    </div>
+    <button type="button" class="btn btn-success" id="btn-oferta">Oferta</button>
+<script src="main.js"></script>
+</body>
+</html>

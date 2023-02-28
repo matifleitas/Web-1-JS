@@ -26,11 +26,9 @@ function comprar(cantidad) {
             cantidadAlimentos: cantidad,
         }
         productos.push(itemNuevo);
-
     } else {
         alert('Porfavor ingrese un producto');
     }
-
     mostrarListado();
 }
 
@@ -57,7 +55,6 @@ function cantidadByUser() {
 
     productos.push(alimentoNuevo);
     mostrarListado();
-
 }
 
 function mostrarListado() {
@@ -66,7 +63,6 @@ function mostrarListado() {
 
     for (const item of productos) {
         listadoDom.innerHTML += "<li>" + "Usted compro, " + item.cantidadAlimentos + " " + item.alimento + "</li>";
-
     }
 
     console.log(productos);

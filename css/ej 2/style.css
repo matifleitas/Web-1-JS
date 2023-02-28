@@ -1,0 +1,42 @@
+.container {
+    display:  block;
+    align-items: baseline;  
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    border: 3px solid black;
+}
+
+.uno {
+    width: 200px;
+    height: 180px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border: 4px solid black;
+    background-color: blue;
+}
+
+.dos {
+    width: 200px;
+    height: 180px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border: 4px solid black;
+    background-color: blue;
+}
+
+.tres {
+    width: 200px;
+    height: 180px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border: 4px solid black;
+    background-color: blue;
+}

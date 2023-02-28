@@ -8,14 +8,16 @@ document.querySelector("#btn-sortear").addEventListener("click", sorteo);
 let nombres = [];
 
 function agregar() {
-    let input = document.querySelector("#nombre");
-    let nombre = input.value;
+    
+    let nombre = document.querySelector("#nombre").value;
+    
+    if(nombre !== '') {
+        nombres.push(nombre);
+        console.log(nombres);
+        mostrar();
 
-    nombres.push(nombre);
-    console.log(nombres);
-    mostrar();
-
-    input.value = "";
+        nombre.value = "";
+    }
 }
 
 
@@ -39,7 +41,8 @@ function borrarUltimo() {
 }
 
 function sorteo() {
-    let random = Math.floor(Math.random() * nombres.length);
+    let cantidadDePersonas = nombres.length;
+    let random = Math.floor(Math.random() * cantidadDePersonas);
     document.querySelector("#resultado").innerHTML = nombres[random];
 
 }

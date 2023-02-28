@@ -1,0 +1,27 @@
+.error {
+    color: red;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+}
+
+.cuerpo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputNumero {
+    margin: 10px;
+}
+
+.btn-dividir {
+    height: 20px ;
+}
+
+.vacio {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,19 @@
+.encabezamiento h1 {
+    color: blue;
+}
+
+.main h1 {
+    color: red;
+}
+
+.especial {
+    color: blue;
+    font-family: cursive;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+}
